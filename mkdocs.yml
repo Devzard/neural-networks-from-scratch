@@ -1,0 +1,41 @@
+site_name: Neural Networks from Scratch
+nav:
+  - Home: 'index.md'
+  - Posts: 
+    - 'perceptron.ipynb'
+      
+theme:
+  name: "material"
+  favicon: "./assests/DG-logos-modified.png"
+  logo: "./assests/DG-logos_black.png"
+  palette:
+    primary: white
+    accent: indigo
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.path
+    - navigation.footer
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+
+plugins:
+  - mkdocs-jupyter:
+      include_source: True
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/debashish-gogoi-devzard/
+    - icon: fontawesome/brands/github
+      link: https://github.com/Devzard
+
+copyright: Copyright &copy; 2024 Debashish Gogoi
+
+extra_css:
+  - stylesheets/extra.css
